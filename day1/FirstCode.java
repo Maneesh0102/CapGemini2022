@@ -1,1 +1,10 @@
-https://github.com/Maneesh0102/CapGemini
+package com.demo;
+
+public class FirstCode {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hi");
+	}
+
+}
