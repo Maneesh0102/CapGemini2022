@@ -1,0 +1,29 @@
+package loopDemo;
+import java.util.*;
+
+public class PercentageOfInterest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		String gender=sc.nextLine();
+		int age=sc.nextInt();
+		if(gender=="Female") {
+			if(age>=1 && age<=58) {
+			System.out.println("Interest is 8.2%");
+		}
+		else if(age>=59 && age<=120){
+			System.out.println("Interest is 7.6%");
+		}
+		}
+		else if(gender=="Male") {
+		if(age>=1 && age<=60) {
+			System.out.println("Interest is 9.2%");
+		}
+		else if(age>=61 && age<=120) {
+			System.out.println("Interest is 8.3%");
+		}
+		
+		}
+	}
+}
